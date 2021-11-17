@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+.phoneSize {
+    display: block;
+overflow-y: auto;
+}
+
+.imageStyle {
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    width: 38%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    padding: 12px;
+    width: 27%;
+    justify-content: space-between;
+}
+
+.headerTwo {
+    display: flex;
+    align-items: center;
+    width: 42%;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 28%;
+}
+
+.headerBtn {
+    text-decoration: none;
+    color: #0C0C0C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.headerBtnTwo {
+    text-decoration: none;
+    color: #686767;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.cardNotification {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    border-radius: 10px;
+    border: 1px solid #E8E4E4;
+    /* margin: auto; */
+    width: 27.5%;
+    height: 10%;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    background-color: #fff;
+
+}
+
+.cardNotificationTwo {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    border-radius: 10px;
+    border: 1px solid #E8E4E4;
+    /* margin: auto; */
+    width: 27.5%;
+    height: 10%;
+    position: absolute;
+    left: 34%;
+    top: 110%;
+    background-color: #fff;
+}
+
+.cardNotificationThree {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    border-radius: 10px;
+    border: 1px solid #E8E4E4;
+    /* margin: auto; */
+    width: 27.5%;
+    height: 10%;
+    position: absolute;
+    left: 34%;
+    top: 125%;
+    background-color: #fff;
+}
+
+.cardNotification2 {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    border-radius: 10px;
+    border: 1px solid #E8E4E4;
+    /* margin: auto; */
+    width: 27.5%;
+    height: 10%;
+    position: absolute;
+    left: 34%;
+    top: 50%;
+    background-color: #fff;
+}
+
+.ProPic {
+    width: 24%;
+    position: relative;
+    right: 3%;
+}
+
+.dataProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.dataProfile2 {
+    display: flex;
+    width: 85%;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.nameText {
+    font-size: 12px;
+    color: #0C0C0C;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 42px; */
+    display: block;
+    margin: 0px;
+    text-align: left;
+}
+
+.postText {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 42px; */
+    display: block;
+    color: #686767;
+
+    text-align: left;
+}
+
+.timeText {
+    font-weight: 500;
+    color: #0C0C0C;
+    font-family: 'Poppins', sans-serif;
+
+    text-align: left;
+    font-size: 10px;
+}
+
+.decisionBtn {
+    display: block;
+    /* margin: 12px */
+}
+
+.acceptBtn {
+    display: block;
+    margin: 12px;
+    position: relative;
+    left: 30%;
+    padding: 5px;
+    font-size: 10px;
+    width: 85%;
+    border: none;
+    background-color: #123859;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.acceptBtn:hover {
+    cursor: pointer;
+    border: 1px solid #123859;
+    background-color: #fff;
+    color: #123859;
+}
+
+.denyBtn {
+    display: block;
+    margin: 12px;
+    position: relative;
+    left: 30%;
+    padding: 5px;
+    font-size: 10px;
+    width: 85%;
+    border: 1px solid #123859;
+    background-color: #fff;
+    color: #123859;
+    border-radius: 12px;
+}
+.denyBtnTwo {
+    display: block;
+    margin: 12px;
+    position: relative;
+    left: 10%;
+    padding: 5px;
+    font-size: 10px;
+    width: 82%;
+    border: 1px solid #123859;
+    background-color: #fff;
+    color: #123859;
+    border-radius: 12px;
+
+}
+
+.denyBtn:hover {
+    cursor: pointer;
+    background-color: #123859;
+    color: #fff;
+}
+
+.denyBtnTwo:hover {
+    cursor: pointer;
+    background-color: #123859;
+    color: #fff;
+}
+
+.cancelAlert {
+    position: absolute;
+    top: 68%;
+    left: 34%;
+    border: 1px solid #E8E4E4;
+    width: 28.9%;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.cancelHeading {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+}
+
+.reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.reason h3 {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    color: #686767;
+}
+
+.inputRadio {
+    position: absolute;
+    left: 60%;
+    width: 60%;
+    color: #123859;
+    border-radius: 50%;
+    /* width: 156px; */
+    height: 26px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+
+.inputRadio:checked {
+    color: #123859;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .imageStyle{
+      display: none;
+  }
+  .header{
+      top: 0;
+      width: 90%;
+      justify-content: space-between;
+      left: 0;
+  }
+.headerBtn{
+    font-size: 15px;
+}
+.headerBtnTwo{
+    font-size: 10px;
+}
+.cardNotification{
+    width: 90%;
+    left: 1%;
+    top: 12%;
+    height: 8%;
+}
+
+.ProPic{
+    right: 4%;
+}
+
+.nameText{
+    font-size: 12px;
+}
+
+.postText{
+    font-size: 10px;
+}
+
+.timeText{
+    font-size: 8px;
+}
+
+.cardNotification2{
+    width: 90%;
+    left: 1%;
+    top: 26%;
+    height: 8%;
+}
+
+.cancelAlert{
+    top: 41%;
+    width: 95%;
+    left: 1%;
+}
+
+.inputRadio{
+    height: 15px;
+}
+
+.headerTwo{
+    top: 72%;
+    width: 90%;
+    left: 2%;
+    justify-content: space-between;
+}
+
+.cardNotificationTwo{
+    width: 90%;
+    left: 1%;
+    top: 85%;
+    height: 8%;
+}
+.cardNotificationThree{
+    width: 90%;
+    left: 1%;
+    top: 99%;
+    height: 8%;
+}
+
+  }
